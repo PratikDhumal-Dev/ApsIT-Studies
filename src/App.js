@@ -22,24 +22,35 @@ import COMPS from "./Departments/COMPS/COMPS";
 import CIVIL from "./Departments/CIVIL/CIVIL";
 import EXTC from "./Departments/EXTC/EXTC";
 import EM1 from "./Subjects/Semesters/Sem1/EM1";
+import { useStateValue } from "./StateProvider";
+import { auth } from "./firebase";
 
-function App(props) {
-  const {
-    email,
-    setEmail,
-    password,
-    setPassword,
-    handleLogin,
-    handleSignup,
-    hasAccount,
-    setHasAccount,
-    emailError,
-    passwordError,
-  } = props;
+function App() {
+  const [{ user }, dispatch] = useStateValue();
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((authUser) => {
+      if (authUser) {
+        dispatch({
+          type: "SET_USER",
+          user: authUser,
+        });
+      } else {
+        dispatch({
+          type: "SET_USER",
+          user: null,
+        });
+      }
+    });
+    return () => {
+      unsubscribe();
+    };
+  }, []);
+  console.log("User is >>>", user);
 
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App">
         <Switch>
           <Route path="/login">
             <Login />
@@ -104,8 +115,8 @@ function App(props) {
             <HomePage />
           </Route>
         </Switch>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 

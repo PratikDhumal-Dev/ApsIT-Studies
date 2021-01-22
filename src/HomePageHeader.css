@@ -8,10 +8,24 @@
   text-decoration: none !important;
   color: #485b66;
 }
+.header__optionLineOne {
+  font-size: 90%;
+}
 
+.header__optionLineTwo {
+  font-weight: 200;
+  font-size: 120%;
+}
 .header__link {
-  color: white;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
   text-decoration: none;
+}
+.header__shoppingIcon {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
 }
 .header__option {
   display: flex;
@@ -19,4 +33,9 @@
   margin-left: 20px;
   margin-right: 10px;
   right: 150px;
+}
+
+.header__optionMain {
+  align-items: center;
+  text-align: center;
 }

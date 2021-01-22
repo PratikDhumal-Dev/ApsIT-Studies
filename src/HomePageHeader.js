@@ -2,12 +2,14 @@ import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./HomePageHeader.css";
 import { Link, useHistory } from "react-router-dom";
-import { useStateValue } from "./StateProvider";
-import { auth } from "./fire";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useStateValue } from "./StateProvider";
+import { auth } from "./firebase";
+import db from "./firebase";
 
-function BootstrapNavbar(props) {
+function BootstrapNavbar() {
+  const [{ user }, dispatch] = useStateValue();
   const history = useHistory();
   const login = () => {
     if (user) {
@@ -15,20 +17,7 @@ function BootstrapNavbar(props) {
       history.push("/login");
     }
   };
-  const {
-    email,
-    setEmail,
-    password,
-    setPassword,
-    handleLogin,
-    handleSignup,
-    handleLogout,
-    hasAccount,
-    setHasAccount,
-    emailError,
-    passwordError,
-    user,
-  } = props;
+
   return (
     <div>
       <div className="row">
@@ -49,7 +38,7 @@ function BootstrapNavbar(props) {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ml-auto">
                 <Nav.Link href="">
-                  <Link className="HomePageHeader__homeButton" to="/HomePage">
+                  <Link className="HomePageHeader__homeButton" to="/">
                     Home
                   </Link>
                 </Nav.Link>
@@ -315,16 +304,23 @@ function BootstrapNavbar(props) {
                 <Nav.Link href="#forum">forum</Nav.Link>
               </Nav>
               <Nav>
-                <Link to={!user && "/login"} className="header__link">
+                <div className="header__optionMain">
                   <div onClick={login} className="header__option">
                     <span className="header__optionLineOne">
-                      Hello,{user?.email}
+                      {user ? <span>Hello,</span> : ""}
+                      {user?.email}
                     </span>
                     <span className="header__optionLineTwo">
-                      <strong>{user ? "Sign Out" : "Sign In"}</strong>
+                      <strong>
+                        <Link to={!user && "/login"} className="header__link">
+                          <Button variant="primary">
+                            {user ? "Sign Out" : "Sign In"}
+                          </Button>
+                        </Link>
+                      </strong>
                     </span>
                   </div>
-                </Link>
+                </div>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
