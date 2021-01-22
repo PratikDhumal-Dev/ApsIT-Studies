@@ -1,0 +1,12 @@
+.ourTeam__textPrimary {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  text-shadow: 2px 1.5px 0px #fff, 7px 6px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.ourTeam {
+  padding-bottom: 50px;
+}

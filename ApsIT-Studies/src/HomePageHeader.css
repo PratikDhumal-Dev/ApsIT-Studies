@@ -1,0 +1,22 @@
+.HomePageHeader__logo {
+  margin-left: 18px;
+  margin-top: 0.5px;
+  margin-bottom: 0.5px;
+}
+
+.HomePageHeader__homeButton {
+  text-decoration: none !important;
+  color: #485b66;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 10px;
+  right: 150px;
+}

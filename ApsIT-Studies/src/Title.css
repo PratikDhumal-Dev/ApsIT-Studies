@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&display=swap");
+
+.Title {
+  background-image: linear-gradient(120deg, #66a6ff 0%, #89f7fe 100%);
+
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.title {
+  display: flex;
+  margin-top: 65px;
+}
+.title__text {
+  display: -ms-inline-grid;
+  place-items: center;
+  margin-left: 40px;
+  margin-top: 60px;
+  text-shadow: 2px 2px 4px white;
+}
+.title__textPrimary {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.title__textPrimary > strong {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px !important;
+  margin-bottom: 15px;
+}
+
+.title__textSecondary {
+  margin-top: 25px;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#b7798a4d-5163-44df-883c-b45df1683271 {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 90%;
+  height: auto;
+}
+
+@media only screen and (min-width: 986px) {
+}
+@media only screen and (max-width: 986px) {
+  .Title {
+    margin-top: -40px;
+  }
+  .title {
+    display: grid;
+  }
+  .title_text {
+    display: -ms-inline-grid;
+    place-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  #b7798a4d-5163-44df-883c-b45df1683271 {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 0px;
+    width: 85%;
+    height: auto;
+  }
+}
+
+/*
+=====
+DEPENDENCES
+=====
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Amaranth:700,400&display=swap");
+
+/* The component will reset browser's styles of link */
+
+.r-link {
+  --uirLinkDisplay: var(--rLinkDisplay, inline-block);
+  --uirLinkTextColor: var(--rLinkTextColor);
+  --uirLinkTextDecoration: var(--rLinkTextDecoration, none);
+
+  display: var(--uirLinkDisplay) !important;
+  color: var(--uirLinkTextColor) !important;
+  text-decoration: var(--uirLinkTextDecoration) !important;
+  margin-top: 25px;
+}
+
+/* The component will reset browser's styles of titles */
+
+.r-title {
+  --uirTitleMarginTop: var(--rTitleMarginTop, 0);
+  --uirTitleMarginBottom: var(--rTitleMarginBottom, 0);
+
+  margin-top: var(--uirTitleMarginTop) !important;
+  margin-bottom: var(--uirTitleMarginBottom) !important;
+}
+
+/*
+=====
+CORE STYLES
+=====
+*/
+
+.animated-underline {
+  --uiAnimatedUnderlineWidth: var(--animatedUnderlineWidth, 100%);
+  --uiAnimatedUnderlineHeight: var(--animatedUnderlineHeight, 2px);
+  --uiAnimatedUnderlineBgColor: var(--animatedUnderlineBgColor, currentColor);
+  --uiAnimatedUnderlinePositionX: var(--animatedUnderlinePositionX, left);
+  --uiAnimatedUnderlinePositionY: var(--animatedUnderlinePositionY, bottom);
+
+  /*
+		1. For multi-line animated underline the "inline" value for the display property is compulsory.
+		2. Adds opportunity to create multi-line padding
+	*/
+
+  --rLinkDisplay: inline; /* 1 */
+
+  background-image: linear-gradient(
+    0,
+    var(--uiAnimatedUnderlineBgColor) 0,
+    var(--uiAnimatedUnderlineBgColor)
+  );
+  background-size: var(--uiAnimatedUnderlineWidth)
+    var(--uiAnimatedUnderlineHeight);
+  background-position: var(--uiAnimatedUnderlinePositionX)
+    var(--uiAnimatedUnderlinePositionY);
+  background-repeat: no-repeat;
+
+  -webkit-box-decoration-break: clone; /* 2 */
+  box-decoration-break: clone; /* 2 */
+
+  will-change: background-size;
+  transition: background-size 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+/*
+=====
+SETTINGS
+=====
+*/
+
+:root {
+  --animatedUnderlineHeight: 1rem;
+  --animatedUnderlineBgColor: var(--accentColor);
+}
+
+.animated-underline_type1 {
+  --animatedUnderlineWidth: 100%;
+}
+
+.animated-underline_type1:hover {
+  --animatedUnderlineHeight: 100%;
+}
+
+.animated-underline_type2 {
+  --animatedUnderlineWidth: 100%;
+}
+
+.animated-underline_type2:hover {
+  --animatedUnderlineWidth: 0;
+}
+
+.animated-underline_type3 {
+  --animatedUnderlineHeight: 0;
+}
+
+.animated-underline_type3:hover {
+  --animatedUnderlineHeight: 100%;
+}
+
+.animated-underline_type4 {
+  --animatedUnderlineWidth: 0;
+}
+
+.animated-underline_type4:hover {
+  --animatedUnderlineWidth: 100%;
+}
+
+.animated-underline_type5 {
+  --animatedUnderlineWidth: 100%;
+  --animatedUnderlineHeight: 5px;
+  --animatedUnderlinePositionY: 90%;
+}
+
+.animated-underline_type5:hover {
+  --animatedUnderlineHeight: 1rem;
+}
+
+/*
+=====
+DEMO
+=====
+*/
+
+:root {
+  --mainColor: #673ab7;
+  --accentColor: #72a0c1;
+  --accentColorDark: #72a0c1;
+  --blackColor: #222;
+  --whiteColor: #fff;
+  --rLinkTextColor: var(--blackColor);
+}
+
+.page {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page__name-effect {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.page__name-effect::before {
+  content: "";
+  width: 3.75rem;
+  height: 2px;
+  background-color: var(--mainColor);
+  margin-top: 0.25rem;
+  margin-right: 0.625rem;
+}
+
+.page__section:nth-child(n + 2) {
+  margin-top: 5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.78;
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+  html {
+    font-size: 106.25%;
+  }
+}
+
+@media (min-width: 961px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+@media (max-width: 960px) {
+  .page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .page__name-effect {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+  }
+
+  .news__title {
+    --rTitleMarginTop: 0.75rem;
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 961px) {
+  .page {
+    padding: 80px 50px;
+  }
+
+  .news__header {
+    display: flex;
+    align-items: flex-start;
+
+    padding-left: 1.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .news__date {
+    flex-shrink: 0;
+    font-family: "Amaranth", sans-serif;
+
+    margin-right: 40px;
+    text-align: center;
+  }
+
+  .news__day {
+    line-height: 1;
+    display: block;
+    font-size: 4.333rem;
+    color: var(--accentColorDark);
+  }
+
+  .news__year {
+    display: block;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+
+  .news__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1301px) {
+  .page__group {
+    padding-left: 190px;
+    padding-right: 100px;
+  }
+}

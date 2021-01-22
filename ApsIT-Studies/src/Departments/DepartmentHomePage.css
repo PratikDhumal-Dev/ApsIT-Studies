@@ -1,0 +1,14 @@
+.DepartmentHomePage__text {
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 100px;
+}
+
+.DepartmentHomePage__textSecondary {
+  margin-top: 30px;
+}
+
+.DepartmentHomePage {
+  background-image: linear-gradient(120deg, #66a6ff 0%, #89f7fe 100%);
+}
