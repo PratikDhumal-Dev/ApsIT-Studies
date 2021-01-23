@@ -30,7 +30,7 @@ function BootstrapNavbar() {
             variant="light"
           >
             <Navbar.Brand className="HomePageHeader__logo" href="">
-              <Link to="/HomePage">
+              <Link to="/">
                 <img src="https://i.ibb.co/jWXbZWY/Aps-ITLogo-Resize.png" />{" "}
               </Link>
             </Navbar.Brand>
@@ -301,7 +301,11 @@ function BootstrapNavbar() {
                     Easy Solutions
                   </Link>
                 </Nav.Link>
-                <Nav.Link href="#forum">forum</Nav.Link>
+                <Nav.Link href="#forum">
+                  <Link className="HomePageHeader__homeButton" to="/forum">
+                    forum
+                  </Link>
+                </Nav.Link>
               </Nav>
               <Nav>
                 <div className="header__optionMain">

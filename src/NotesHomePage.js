@@ -1,5 +1,6 @@
 import React from "react";
 import "./NotesHomePage.css";
+import { Link, useHistory } from "react-router-dom";
 
 function NotesHomePage() {
   return (
@@ -483,7 +484,9 @@ function NotesHomePage() {
         </div>
         <div className="notesHomePage__textButton">
           <div>
-            <button class="btn-1">Learn More</button>
+            <Link to="/notes">
+              <button class="btn-1">Learn More</button>
+            </Link>
           </div>
         </div>
       </div>

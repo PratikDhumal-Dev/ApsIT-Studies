@@ -1,5 +1,6 @@
 import React from "react";
 import "./PreviousPaper.css";
+import { Link, useHistory } from "react-router-dom";
 
 function PreviousPaper() {
   return (
@@ -13,7 +14,9 @@ function PreviousPaper() {
         </div>
         <div className="previousPaper__textButton">
           <div>
-            <button class="btn-1">Learn More</button>
+            <Link to="/paperSolutions">
+              <button class="btn-1">Learn More</button>
+            </Link>
           </div>
         </div>
       </div>

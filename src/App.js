@@ -24,6 +24,7 @@ import EXTC from "./Departments/EXTC/EXTC";
 import EM1 from "./Subjects/Semesters/Sem1/EM1";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
+import Forum from "./Forum";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -66,6 +67,9 @@ function App() {
           </Route>
           <Route path="/easySolutions">
             <EasySolution />
+          </Route>
+          <Route path="/forum">
+            <Forum />
           </Route>
           <Route path="/semesters/sem1">
             <Sem1 />

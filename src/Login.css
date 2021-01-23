@@ -119,5 +119,5 @@
 .tips__textButton > div > button:hover {
   padding-left: 60px;
   padding-right: 60px;
-  box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 4px;
+  box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px;
 }

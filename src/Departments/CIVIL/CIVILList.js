@@ -5,6 +5,7 @@ import Button from "react-bootstrap/Button";
 import "./CIVILList.css";
 import { Icon, InlineIcon } from "@iconify/react";
 import downCircleFilled from "@iconify-icons/ant-design/down-circle-filled";
+import { Link } from "react-router-dom";
 
 function CIVILList() {
   return (
@@ -173,7 +174,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -199,7 +203,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -226,7 +233,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -253,7 +263,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -279,7 +292,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>
@@ -314,7 +330,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -340,7 +359,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -367,7 +389,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -393,7 +418,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -420,7 +448,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>
@@ -455,7 +486,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -481,7 +515,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -508,7 +545,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -534,7 +574,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -561,7 +604,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -588,7 +634,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="5">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>
@@ -623,7 +672,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -650,7 +702,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -678,7 +733,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -704,7 +762,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -730,7 +791,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -757,7 +821,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="5">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>
@@ -793,7 +860,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -820,7 +890,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -847,7 +920,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -874,7 +950,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -901,7 +980,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>
@@ -937,7 +1019,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
             <Card className="semList__card">
@@ -963,7 +1048,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -991,7 +1079,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
 
@@ -1019,7 +1110,10 @@ function CIVILList() {
                 <Card.Body className="semList__subject">TechMax</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">Forum</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum </Link>
+                </Card.Body>
               </Accordion.Collapse>
             </Card>
           </Accordion>

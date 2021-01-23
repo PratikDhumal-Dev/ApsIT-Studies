@@ -6,6 +6,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -28,22 +29,35 @@ function Footer() {
               <h6>Categories</h6>
               <ul class="footer-links">
                 <li>
-                  <a href="">First Year</a>
+                  <Link to="/subjects/fe">
+                    <a href="">First Year</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Information Technology</a>
+                  <Link to="/subjects/it">
+                    <a href="">Information Technology</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Electronics &amp; Telecommunication</a>
+                  <Link to="/subjects/extc">
+                    <a href="">Electronics &amp; Telecommunication</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Computer Science Engineering</a>
+                  <Link to="/subjects/comps">
+                    <a href="">Computer Science Engineering</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Mechanical Engineering</a>
+                  <Link to="/subjects/mech">
+                    <a href="">Mechanical Engineering</a>
+                  </Link>
                 </li>
+
                 <li>
-                  <a href="">Civil Engineering</a>
+                  <Link to="/subjects/civil">
+                    <a href="">Civil Engineering</a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -55,16 +69,20 @@ function Footer() {
                   <a href="">About Us</a>
                 </li>
                 <li>
-                  <a href="">Contact Us</a>
+                  <a href="mailto:pratikdhumal2002@gmail.com">Contact Us</a>
                 </li>
                 <li>
-                  <a href="">Notes</a>
+                  <Link to="/notes">
+                    <a href="">Notes</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="">Forum</a>
+                  <Link to="/forum">
+                    <a href="">Forum</a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="http://scanfcode.com/sitemap/">Privacy Policy</a>
+                  <a href="">Privacy Policy</a>
                 </li>
               </ul>
             </div>
@@ -83,22 +101,34 @@ function Footer() {
             <div class="col-md-4 col-sm-6 col-xs-12">
               <ul class="social-icons">
                 <li>
-                  <a class="facebook" href="#">
-                    <FacebookIcon />
+                  <a
+                    class="facebook"
+                    href="https://github.com/PratikDhumal-Dev"
+                  >
+                    <GitHubIcon />
                   </a>
                 </li>
                 <li>
-                  <a class="twitter" href="#">
+                  <a
+                    class="twitter"
+                    href="https://twitter.com/PratikDhumal_71?s=08"
+                  >
                     <TwitterIcon />
                   </a>
                 </li>
                 <li>
-                  <a class="dribbble" href="#">
+                  <a
+                    class="dribbble"
+                    href="https://www.instagram.com/_pratik_71/?igshid=1xkj2v3nqhpau"
+                  >
                     <InstagramIcon />
                   </a>
                 </li>
                 <li>
-                  <a class="linkedin" href="#">
+                  <a
+                    class="linkedin"
+                    href="https://www.linkedin.com/in/pratik-dhumal-dev"
+                  >
                     <LinkedInIcon />
                   </a>
                 </li>

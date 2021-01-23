@@ -1,6 +1,7 @@
 import { Button } from "@material-ui/core";
 import React from "react";
 import "./Tips.css";
+import { Link, useHistory } from "react-router-dom";
 
 function Tips() {
   return (
@@ -331,7 +332,9 @@ function Tips() {
         </div>
         <div className="tips__textButton">
           <div>
-            <button class="btn-1">Learn More</button>
+            <Link to="/easySolutions">
+              <button class="btn-1">Learn More</button>
+            </Link>
           </div>
         </div>
       </div>

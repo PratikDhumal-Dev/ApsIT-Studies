@@ -16,21 +16,41 @@ function OurTeamCard() {
           <div class="team-img">
             <img src={MyPhotoNew} alt="Team Image" />
             <div class="team-social">
-              <a class="social-tw" href="">
+              <a
+                class="social-tw"
+                href="https://twitter.com/PratikDhumal_71?s=08"
+                target="_blank"
+              >
                 <div className="ourTeam__logo">
                   <TwitterIcon />
                 </div>
               </a>
-              <a class="social-fb" href="">
+              <a
+                class="social-fb"
+                href="https://www.facebook.com/pratik.dhumal.5623"
+                target="_blank"
+              >
                 <FacebookIcon />
               </a>
-              <a class="social-li" href="">
+              <a
+                class="social-li"
+                href="https://www.linkedin.com/in/pratik-dhumal-dev"
+                target="_blank"
+              >
                 <LinkedInIcon />
               </a>
-              <a class="social-in" href="">
+              <a
+                class="social-in"
+                href="https://www.instagram.com/_pratik_71/?igshid=1xkj2v3nqhpau"
+                target="_blank"
+              >
                 <InstagramIcon />
               </a>
-              <a class="social-yt" href="">
+              <a
+                class="social-yt"
+                href="https://github.com/PratikDhumal-Dev"
+                target="_blank"
+              >
                 <GitHubIcon />
               </a>
             </div>
