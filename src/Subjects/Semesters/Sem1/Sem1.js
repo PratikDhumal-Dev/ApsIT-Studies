@@ -9,8 +9,12 @@ import "./Sem1.css";
 import { Icon, InlineIcon } from "@iconify/react";
 import downCircleFilled from "@iconify-icons/ant-design/down-circle-filled";
 import { Link } from "react-router-dom";
+import { Redirect } from "react-router-dom";
+import { useStateValue } from "../../../StateProvider";
 
 function Sem1() {
+  const [{ user }, dispatch] = useStateValue();
+  if (!user) return <Redirect to="/login" />;
   return (
     <div>
       <HomePageHeader />

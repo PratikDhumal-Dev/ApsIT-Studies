@@ -55,17 +55,31 @@ function Login() {
             onChange={(event) => setPassword(event.target.value)}
             type="password"
           />
-          <button
-            type="submit"
-            onClick={signIn}
-            className="login__signInButton"
-          >
-            sign in
-          </button>
 
-          <button onClick={register} className="login__registerButton">
-            create your amazon account
-          </button>
+          <div className="tips__textButton">
+            <div>
+              <button
+                type="submit"
+                onClick={signIn}
+                className="login__signInButton"
+                class="btn-1"
+              >
+                Sign In
+              </button>
+            </div>
+          </div>
+          <div className="tips__textButton">
+            <div>
+              <button
+                onClick={register}
+                className="login__registerButton"
+                className="login__signInButton"
+                class="btn-1"
+              >
+                create your account
+              </button>
+            </div>
+          </div>
         </form>
       </div>
     </div>

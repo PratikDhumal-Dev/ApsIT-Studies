@@ -2,8 +2,13 @@ import React from "react";
 import HomePageHeader from "../../HomePageHeader";
 import COMPSList from "./COMPSList";
 import "./COMPS.css";
+import { Redirect } from "react-router-dom";
+
+import { useStateValue } from "../../StateProvider";
 
 function COMPS() {
+  const [{ user }, dispatch] = useStateValue();
+  if (!user) return <Redirect to="/login" />;
   return (
     <div>
       <HomePageHeader />

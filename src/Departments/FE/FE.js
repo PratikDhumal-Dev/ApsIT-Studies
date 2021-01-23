@@ -2,8 +2,12 @@ import React from "react";
 import HomePageHeader from "../../HomePageHeader";
 import FEList from "./FEList";
 import "./FE.css";
+import { Redirect } from "react-router-dom";
+import { useStateValue } from "../../StateProvider";
 
 function FE() {
+  const [{ user }, dispatch] = useStateValue();
+  if (!user) return <Redirect to="/login" />;
   return (
     <div>
       <HomePageHeader />

@@ -2,8 +2,12 @@ import React from "react";
 import HomePageHeader from "../../HomePageHeader";
 import ITList from "./ITList";
 import "./IT.css";
+import { Redirect } from "react-router-dom";
+import { useStateValue } from "../../StateProvider";
 
 function IT() {
+  const [{ user }, dispatch] = useStateValue();
+  if (!user) return <Redirect to="/login" />;
   return (
     <div>
       <HomePageHeader />

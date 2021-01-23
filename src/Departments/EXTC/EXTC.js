@@ -2,8 +2,13 @@ import React from "react";
 import HomePageHeader from "../../HomePageHeader";
 import EXTCList from "./EXTCList";
 import "./EXTC.css";
+import { Redirect } from "react-router-dom";
+
+import { useStateValue } from "../../StateProvider";
 
 function EXTC() {
+  const [{ user }, dispatch] = useStateValue();
+  if (!user) return <Redirect to="/login" />;
   return (
     <div>
       <HomePageHeader />

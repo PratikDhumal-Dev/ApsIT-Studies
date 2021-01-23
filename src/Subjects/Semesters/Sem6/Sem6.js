@@ -8,8 +8,12 @@ import "../Sem1/Sem1.css";
 
 import { Icon, InlineIcon } from "@iconify/react";
 import downCircleFilled from "@iconify-icons/ant-design/down-circle-filled";
+import { Redirect } from "react-router-dom";
+import { useStateValue } from "../../../StateProvider";
 
 function Sem6() {
+  const [{ user }, dispatch] = useStateValue();
+  if (!user) return <Redirect to="/login" />;
   return (
     <div>
       <HomePageHeader />
