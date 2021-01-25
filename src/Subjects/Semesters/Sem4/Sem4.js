@@ -31,7 +31,15 @@ function Sem4() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <a
+                    href="https://drive.google.com/file/d/18NQLNAOHo5BFvjF2izoEngucOEqalXHR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -40,7 +48,13 @@ function Sem4() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1684oKQ04VTeacbkdzIwt55yBxhyBrhnJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
@@ -173,7 +187,14 @@ function Sem4() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/18NQLNAOHo5BFvjF2izoEngucOEqalXHR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -182,7 +203,13 @@ function Sem4() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1684oKQ04VTeacbkdzIwt55yBxhyBrhnJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
@@ -313,7 +340,14 @@ function Sem4() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/18NQLNAOHo5BFvjF2izoEngucOEqalXHR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -322,7 +356,13 @@ function Sem4() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1684oKQ04VTeacbkdzIwt55yBxhyBrhnJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
@@ -454,7 +494,14 @@ function Sem4() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/18NQLNAOHo5BFvjF2izoEngucOEqalXHR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -463,7 +510,13 @@ function Sem4() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1684oKQ04VTeacbkdzIwt55yBxhyBrhnJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
@@ -595,7 +648,14 @@ function Sem4() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/18NQLNAOHo5BFvjF2izoEngucOEqalXHR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -604,7 +664,13 @@ function Sem4() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1684oKQ04VTeacbkdzIwt55yBxhyBrhnJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">

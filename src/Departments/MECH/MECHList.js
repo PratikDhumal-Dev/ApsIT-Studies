@@ -155,7 +155,14 @@ function MECHList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1LX-T_ZYrNPwHJh7Bq79jDdK8OeCjjACB/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -181,7 +188,15 @@ function MECHList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1QE9Px9X74PNKXkCuMVXpcdRi6msMm5dY/view?usp=sharing"
+                    target="_blank "
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
@@ -217,11 +232,25 @@ function MECHList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/14_3esZXw-UtEFW_xuFjX9CLg_klRlhG_/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1FM2VpZgc_sYCfJ2jFAiPH9T1J0V3HPji/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">Forum</Card.Body>
@@ -234,7 +263,15 @@ function MECHList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1BsFAtW6lXf4XYac3HlFlfHo5xELl_XOz/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className="semList__subject">
@@ -260,7 +297,15 @@ function MECHList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1W60h76x_YJSjN5cFXpOt9LXUUmLFQxoT/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className="semList__subject">
@@ -295,7 +340,14 @@ function MECHList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/18NQLNAOHo5BFvjF2izoEngucOEqalXHR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -304,7 +356,13 @@ function MECHList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1684oKQ04VTeacbkdzIwt55yBxhyBrhnJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
@@ -321,7 +379,15 @@ function MECHList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1nnhoodBll8rYjDHpVUX-D_6O938SedaN/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
@@ -410,7 +476,13 @@ function MECHList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/12KRbOxp5Hy_3Ire6YCRb79rmXJE4RMNQ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
@@ -449,7 +521,16 @@ function MECHList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <a
+                    href="https://drive.google.com/file/d/1q8CPQamqn4FlCnCMbAgZUlZqIG7_3Tl2/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">Forum</Card.Body>
@@ -463,7 +544,12 @@ function MECHList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a href="https://drive.google.com/file/d/1_tA8AkEXa7c-4gpIXNl6Ce6FzcGui-eK/view?usp=sharing">
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
@@ -499,7 +585,13 @@ function MECHList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1ArS2O5w_qQkOLlTu4AxN3-9c_128iLN2/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
@@ -516,7 +608,15 @@ function MECHList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1Kk537HztT0Hjj0LBCJuxqt2gwQ13f6yR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className="semList__subject">

@@ -158,7 +158,15 @@ function CIVILList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <a
+                    href="https://drive.google.com/file/d/1LX-T_ZYrNPwHJh7Bq79jDdK8OeCjjACB/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -217,7 +225,7 @@ function CIVILList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject"> Notes</Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">
@@ -230,7 +238,15 @@ function CIVILList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1eE1Ii3cieU67wMI0Gs1oXno6XNlYj19l/view?usp=sharing"
+                    target="_blank"
+                    download="Engineering_Geology"
+                  >
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">
@@ -276,7 +292,14 @@ function CIVILList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1ZzBT-ypKFWzITs-c9wcR_IA5pBh3J14P/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className="semList__subject">
@@ -314,7 +337,15 @@ function CIVILList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <a
+                    href="https://drive.google.com/file/d/18NQLNAOHo5BFvjF2izoEngucOEqalXHR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -323,7 +354,13 @@ function CIVILList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1684oKQ04VTeacbkdzIwt55yBxhyBrhnJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
@@ -339,11 +376,18 @@ function CIVILList() {
             <Card className="semList__card">
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                  Fluid Mechanics <Icon icon={downCircleFilled} />
+                  Fluid Mechanics-II <Icon icon={downCircleFilled} />
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1OM9u6PUPP473-Hhf8oKSMbcW5mUOqpfE/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
@@ -356,7 +400,15 @@ function CIVILList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <a
+                    href="https://drive.google.com/file/d/1_mvVWtAO7f53Vyg5fC9xb32UcWw1RcNr/view?usp=sharing"
+                    target="_blank"
+                  >
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
@@ -386,7 +438,14 @@ function CIVILList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1egVs9Uz-l6G3cAJRai-aC7X1f1ShS0Ix/view?usp=sharing"
+                    target="_blank"
+                  >
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">
@@ -398,6 +457,7 @@ function CIVILList() {
             <Card className="semList__card">
               <Card.Header>
                 <Accordion.Toggle as={Button} variant="link" eventKey="3">
+                  {" "}
                   Surveying <Icon icon={downCircleFilled} />
                 </Accordion.Toggle>
               </Card.Header>
@@ -415,7 +475,14 @@ function CIVILList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1GiOyxr1yQbwsv727CA7LT0xZmIE9NPEh/view?usp=sharing"
+                    target="_blank"
+                  >
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className="semList__subject">
@@ -445,9 +512,59 @@ function CIVILList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1Ybear55vUx39PRYd-SP7t3As4bxQWXTs/view?usp=sharing"
+                    target="_blank"
+                  >
+                    TechMax
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <Link to="/forum">Forum</Link>
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card className="semList__card">
+              <Card.Header>
+                <Accordion.Toggle as={Button} variant="link" eventKey="5">
+                  Building Design &amp; Drawing <Icon icon={downCircleFilled} />
+                </Accordion.Toggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey="5">
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1cGEOpk1WK0ArW5Kv0sApMK-JLWmQIOlD/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
+              </Accordion.Collapse>
+              <Accordion.Collapse eventKey="5">
+                <Card.Body className="semList__subject">
+                  Paper Solutions
+                </Card.Body>
+              </Accordion.Collapse>
+              <Accordion.Collapse eventKey="5">
+                <Card.Body className="semList__subject">
+                  Easy Solutions
+                </Card.Body>
+              </Accordion.Collapse>
+              <Accordion.Collapse eventKey="5">
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1Ybear55vUx39PRYd-SP7t3As4bxQWXTs/view?usp=sharing"
+                    target="_blank"
+                  >
+                    TechMax
+                  </a>
+                </Card.Body>
+              </Accordion.Collapse>
+              <Accordion.Collapse eventKey="5">
                 <Card.Body className="semList__subject">
                   {" "}
                   <Link to="/forum">Forum</Link>

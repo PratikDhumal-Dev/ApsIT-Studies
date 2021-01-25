@@ -23,6 +23,7 @@ function BootstrapNavbar() {
       <div className="row">
         <div className="col-md-12">
           <Navbar
+            fixed="top"
             className="HomePageHeader"
             collapseOnSelect
             expand="lg"

@@ -31,7 +31,14 @@ function Sem3() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1LX-T_ZYrNPwHJh7Bq79jDdK8OeCjjACB/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -172,7 +179,14 @@ function Sem3() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1LX-T_ZYrNPwHJh7Bq79jDdK8OeCjjACB/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -314,7 +328,14 @@ function Sem3() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1LX-T_ZYrNPwHJh7Bq79jDdK8OeCjjACB/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -454,7 +475,14 @@ function Sem3() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1LX-T_ZYrNPwHJh7Bq79jDdK8OeCjjACB/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -595,7 +623,14 @@ function Sem3() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1LX-T_ZYrNPwHJh7Bq79jDdK8OeCjjACB/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">

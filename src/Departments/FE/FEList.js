@@ -97,7 +97,15 @@ function FEList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1L4AYCNmET4JL5iHIe95Ur9d8JUHAIQ-d/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -150,7 +158,15 @@ function FEList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1L4AYCNmET4JL5iHIe95Ur9d8JUHAIQ-d/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">
@@ -237,7 +253,26 @@ function FEList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1B5W0VSPUJsxDtTSbizcKUR1XC6tIsbHF/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
+              </Accordion.Collapse>
+              <Accordion.Collapse eventKey="0">
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1OeyFydmcz-fL36a0mFutrZw2d6CJxeAc/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Kumbojkar Compainion{" "}
+                  </a>{" "}
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -263,7 +298,15 @@ function FEList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1_lJ5GOi4gjMjr9fWS0cOjND2AbwXMWMd/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
@@ -290,7 +333,15 @@ function FEList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1oJofB-jFk0MzgKhYIWEolDV4vB7FL411/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">

@@ -158,7 +158,14 @@ function EXTCList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1LX-T_ZYrNPwHJh7Bq79jDdK8OeCjjACB/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -198,7 +205,15 @@ function EXTCList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1nugXOZvoOntz4g6pr_UOEgF0jp-rshjf/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">Forum</Card.Body>
@@ -212,7 +227,15 @@ function EXTCList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/16A_ZOKS40PtHQ5zgWbrNKezHESDIy0oA/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">
@@ -265,7 +288,15 @@ function EXTCList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1w4wjOOeLRPIIRz1bcq1mtTwENv_WHIJ-/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className="semList__subject">
@@ -300,7 +331,14 @@ function EXTCList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/18NQLNAOHo5BFvjF2izoEngucOEqalXHR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -309,7 +347,13 @@ function EXTCList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1684oKQ04VTeacbkdzIwt55yBxhyBrhnJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
@@ -362,7 +406,13 @@ function EXTCList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1IWp2ylspBlLO6Z3MKPA2CH8xcdINDpYI/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
@@ -388,7 +438,13 @@ function EXTCList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/115u-dETRue_3CHNFc5jDdBTpxQai_pWJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
@@ -415,7 +471,13 @@ function EXTCList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1df9FgNQuoaK5ThzmiJ2OY5kFyXW89oQZ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
@@ -451,7 +513,13 @@ function EXTCList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1dqHryFYDunSHs_5MRVNix8i38Qhfg9P5/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
@@ -477,7 +545,13 @@ function EXTCList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1q_fjy0A5Bs7ZaC0SOigAj_Wj5sUx_-fq/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
@@ -504,7 +578,13 @@ function EXTCList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1vQftAALaEhKs7HeT8pmv--2RcV7F4Ep0/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
@@ -531,7 +611,13 @@ function EXTCList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1Ntwn3GYaL8GKy-TEj4aupfOBUJBpED68/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">

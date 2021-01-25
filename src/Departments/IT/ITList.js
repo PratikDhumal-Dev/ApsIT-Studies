@@ -155,7 +155,14 @@ function ITList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1LX-T_ZYrNPwHJh7Bq79jDdK8OeCjjACB/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -181,7 +188,15 @@ function ITList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1FLQsAciFUj80NmhO1vf9IZR4sPMI4xXm/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
@@ -217,7 +232,13 @@ function ITList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1y8PK6z78p0KcnFFovJhSOrxOKlP5V3vP/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
@@ -234,7 +255,15 @@ function ITList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1rpA-3Z_PZbpqx69oC2A21GkYaHyBZuS0/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className="semList__subject">
@@ -270,7 +299,13 @@ function ITList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1YPPUv2QFKzxzfZ2qsdNK_9SLIpeopB0C/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
@@ -296,7 +331,14 @@ function ITList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/18NQLNAOHo5BFvjF2izoEngucOEqalXHR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -305,7 +347,13 @@ function ITList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1684oKQ04VTeacbkdzIwt55yBxhyBrhnJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>{" "}
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
@@ -506,7 +554,15 @@ function ITList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1tw_79-hgTjSwdID_LngNL7qpZ-1xHqLC/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">Forum</Card.Body>
@@ -533,7 +589,15 @@ function ITList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1oIlLB2X_HisgT2s0nBpUwmPFgTwLuU6e/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className="semList__subject">Forum</Card.Body>

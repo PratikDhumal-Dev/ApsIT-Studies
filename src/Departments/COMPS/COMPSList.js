@@ -158,7 +158,14 @@ function COMPSList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1LX-T_ZYrNPwHJh7Bq79jDdK8OeCjjACB/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -185,7 +192,7 @@ function COMPSList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject"> Notes </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
@@ -194,7 +201,12 @@ function COMPSList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1IbvU0YOxmTGhErMZcA1dkk__ztCoRXf_/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Easy Solutions
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
@@ -212,7 +224,14 @@ function COMPSList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1INhSUTYfhsjRTrf_rMnBLt5A4M-dJvRw/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">
@@ -239,7 +258,14 @@ function COMPSList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/14-2Isv39D6krbdfosNYAjLhGYgcsB7Wa/view?usp=sharing"
+                    target="_blank"
+                  >
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className="semList__subject">
@@ -274,11 +300,25 @@ function COMPSList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1cPnNrKnCjauHH8G9Qi1ff1Y4GTvCSznG/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1ek1Qa19N4NUEM3FDG1yKhGPMH-65zcWV/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="4">
                 <Card.Body className="semList__subject">Forum</Card.Body>
@@ -300,7 +340,16 @@ function COMPSList() {
                 </Accordion.Toggle>
               </Card.Header>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">Notes</Card.Body>
+                <Card.Body className="semList__subject">
+                  {" "}
+                  <a
+                    href="https://drive.google.com/file/d/18NQLNAOHo5BFvjF2izoEngucOEqalXHR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Notes{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
@@ -309,7 +358,13 @@ function COMPSList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1684oKQ04VTeacbkdzIwt55yBxhyBrhnJ/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
@@ -335,7 +390,13 @@ function COMPSList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1o0FZAjrlo-27JHIuk5ei98RVEYfzltd8/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
@@ -388,7 +449,13 @@ function COMPSList() {
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className="semList__subject">
-                  Easy Solutions
+                  <a
+                    href="https://drive.google.com/file/d/1Avl92yv3jOUDHi7z4pQlAAwJiOC9irch/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    Easy Solutions{" "}
+                  </a>
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
@@ -453,7 +520,15 @@ function COMPSList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1f9wIMf9SWPUFPuLRPIob358CvvQIIVR_/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="0">
                 <Card.Body className="semList__subject">Forum</Card.Body>
@@ -479,7 +554,15 @@ function COMPSList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1zW82bfoWlc0KhypmlkkMCo13_M_8iMCR/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="1">
                 <Card.Body className="semList__subject">Forum</Card.Body>
@@ -506,7 +589,15 @@ function COMPSList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1Agg0_7jcdKQLoPMRtq3Tt5P0sipMSbBg/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="2">
                 <Card.Body className="semList__subject">Forum</Card.Body>
@@ -532,7 +623,15 @@ function COMPSList() {
                 </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
-                <Card.Body className="semList__subject">TechMax</Card.Body>
+                <Card.Body className="semList__subject">
+                  <a
+                    href="https://drive.google.com/file/d/1f9wIMf9SWPUFPuLRPIob358CvvQIIVR_/view?usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    TechMax{" "}
+                  </a>
+                </Card.Body>
               </Accordion.Collapse>
               <Accordion.Collapse eventKey="3">
                 <Card.Body className="semList__subject">Forum</Card.Body>
